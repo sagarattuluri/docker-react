@@ -6,4 +6,4 @@ before_install:
   - docker build -t aspiringmonk/docker-react -f dockerfile.dev .
 
 script:
-  - docker run aspiringmonk/docker-react npm run test -- -- coverage v
+  - docker run aspiringmonk/docker-react npm run test -- --coverage 
